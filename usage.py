@@ -14,6 +14,7 @@ final_spacer = html.Div(children=[], style=dict(height=400))
 
 # Callback for BottomNavigation
 app.layout = html.Div([
+    # sd_material_ui.AppBar(id='test'),
 
     # Test BottomNavigation
     sd_material_ui.BottomNavigation(
